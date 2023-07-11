@@ -1,0 +1,8 @@
+server:
+  port: 8082
+
+app:
+  auth-server-url: http://localhost:9000
+  allowed-origins: http://localhost:4200
+  client-id: oidc-client
+  client-secret: oidc
